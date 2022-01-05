@@ -5,6 +5,7 @@
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
   "scripts": {
+   "start": "node dist/main/example.js",
     "test": "jest --",
     "test:watch": "jest --watch --",
     "test:watch-all": "jest --watchAll"

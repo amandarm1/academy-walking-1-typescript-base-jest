@@ -1,3 +1,3 @@
-declare function filterNum(num: number): number | "FizzBuzz" | "Fizz" | "Buzz";
-declare function Exercise1filterNum(num: number): number | "FizzBuzz" | "Fizz" | "Buzz";
-declare function countNums1(): void;
+/// <reference types="node" />
+import * as readline from 'readline';
+export declare let rl: readline.Interface;
